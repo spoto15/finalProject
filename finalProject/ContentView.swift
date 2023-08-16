@@ -25,7 +25,7 @@ struct ContentView: View {
                      .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
                      .aspectRatio(contentMode: .fit)
                      .padding(.horizontal, 50.0)
-                     .padding(.bottom, 100.0)
+                     .padding(.bottom, 15.0)
                  
                  Text("Don't know what to do in NYC?")
                      .font(.title2)
